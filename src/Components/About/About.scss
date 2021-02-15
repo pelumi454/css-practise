@@ -16,8 +16,18 @@
 
     .about-p{
         line-height: 23px;
+        text-align: justify;
     }
 
+    .about-icons{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .about-svg{
+        margin: 10px;
+    }
 
     @media (min-width: 768px) {
         .about-p1{
