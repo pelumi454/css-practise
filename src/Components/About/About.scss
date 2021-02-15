@@ -1,8 +1,34 @@
-.about{
-    width: 80%;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-    #{&}__h1{
+.about{
+    width: 70%;
+    margin: auto;
+    font-family: Roboto;
+    margin-top: 133px;
+    margin-bottom: 133px;
+    
+
+    .about-p1{
         text-align: center;
+        font-weight: 600;
+        font-size: 30px;
     }
+
+    .about-p{
+        line-height: 23px;
+    }
+
+
+    @media (min-width: 768px) {
+        .about-p1{
+            font-size: 62px;
+        }
+
+        .about-p{
+            line-height: 34px;
+            font-size: 29px;
+            text-align: justify
+        }
+    }
+    
 }
