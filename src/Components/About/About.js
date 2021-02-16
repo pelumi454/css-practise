@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.scss'
+import {Link} from 'react-router-dom'
 import twitter from '../../img/twitter.svg'
 import github from '../../img/github.svg'
 import linkedin from '../../img/linkedin.svg'
@@ -14,6 +15,9 @@ const About = () => {
                 <img src={github} className="about-svg" alt="github-icon"/>
                 <img src={linkedin} className="about-svg" alt="linkedin-icon"/>
             </div>
+            <Link to='/Elearning'>
+            <button className="button">Next</button>
+            </Link>
         </div>
     )
 }

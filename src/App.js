@@ -1,11 +1,12 @@
 import React from 'react'
-import About from './Components/About/About'
+import Route from './Components/routes'
+
 
 
 function App() {
   return (
     <div className="App">
-     <About/>
+     <Route/>
     </div>
   );
 }
