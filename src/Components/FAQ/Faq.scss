@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.faq{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    .faq-p1{
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #8A939A;
+    }
+
+    .faq-p2{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 45px;
+        color: #293D4A;
+    }
+
+    .faq-p3{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .faq-p4{
+        font-family: Roboto;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 35px;
+        color: #4F4F4F;
+    }
+
+    @media (min-width: 768px) {
+        
+    }
+}
